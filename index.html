@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HeartSpace by Bibadubi — Messages, Inspiration, and Stories</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(to bottom right, #fff5f8, #fef8f3);
+      color: #333;
+      line-height: 1.8;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      color: #ff6b81;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    .signature {
+      font-style: italic;
+      color: #888;
+      margin-top: 10px;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav button {
+      background: #ff6b81;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 12px 25px;
+      margin: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    nav button:hover {
+      background: #ff8fa3;
+    }
+
+    section {
+      display: none;
+      animation: fadeIn 0.8s ease;
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    section.active {
+      display: block;
+    }
+
+    h2 {
+      text-align: center;
+      color: #ff6b81;
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .content-box, .story {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      margin: 15px auto;
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+    }
+
+    .story h3 {
+      color: #ff6b81;
+      margin-bottom: 10px;
+      font-size: 1.4rem;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    footer span {
+      color: #ff6b81;
+      font-weight: 600;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌸 HeartSpace by Bibadubi 🌸</h1>
+    <p>A collection of heartwarming messages, timeless inspiration, and true stories that touch the soul.</p>
+    <p class="signature">crafted with love by <strong>Bibadubi</strong></p>
+    <nav>
+      <button onclick="showSection('messages')">Heartwarming Messages</button>
+      <button onclick="showSection('inspiration')">Inspirations</button>
+      <button onclick="showSection('stories')">Amazing Stories</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 💖 HEARTWARMING MESSAGES -->
+    <section id="messages" class="active">
+      <h2>💖 Heartwarming Messages</h2>
+      <div class="content-box">
+        <p>Sometimes the world feels heavy, but remember this — you were never built to carry it all at once. Rest when you need to, breathe when you forget, and love yourself the way you love the ones who smile at you. You deserve peace, even when you’re not productive. You deserve joy, even when you’re quiet. And you deserve love, especially when you feel unworthy of it.</p>
+        <p>To the ones who wake up tired but still choose kindness — you are rare. To those who keep forgiving even when their heart is scarred — you are strong. To those who smile through silent pain — you are beautiful beyond words. Never forget, light does not disappear in the dark; it simply waits for dawn.</p>
+        <p>Every person you meet is fighting a battle you may never see. A gentle word, a soft smile, a patient ear — these are not small things. These are miracles that save people quietly.</p>
+        <p>Maybe today didn’t go as planned. Maybe you cried, maybe you broke. But you’re still here. You showed up. You survived the storm, and that’s something to be proud of. Healing doesn’t always look like a victory march; sometimes it looks like getting out of bed and whispering, “I’ll try again.”</p>
+        <p>Keep going, beautiful soul. The world still needs your kind of light.</p>
+      </div>
+    </section>
+
+    <!-- ✨ INSPIRATIONAL QUOTES -->
+    <section id="inspiration">
+      <h2>✨ Inspirations</h2>
+      <div class="content-box">
+        <p>“Courage doesn’t always roar. Sometimes courage is the quiet voice at the end of the day saying, ‘I will try again tomorrow.’” – Mary Anne Radmacher</p>
+        <p>“When you feel like you’ve reached the end, remember — roots grow deep in silence before flowers ever bloom.”</p>
+        <p>“You are not behind in life. You are unfolding exactly at your own pace, in your own season, and in your own rhythm.”</p>
+        <p>“Even the moon goes through phases, but it never stops shining. So don’t be ashamed of your growth — it’s beautiful.”</p>
+        <p>“The universe doesn’t rush anything. Everything blooms when it’s ready.”</p>
+        <p>“Someday, when you least expect it, your patience will turn into peace, your pain into purpose, and your waiting into wonder.”</p>
+        <p>“Fall seven times, stand up eight. Because every time you rise, you tell the world hope still lives.”</p>
+      </div>
+    </section>
+
+    <!-- 📖 AMAZING STORIES -->
+    <section id="stories">
+      <h2>📖 Amazing Stories</h2>
+      <div class="story">
+        <h3>The Old Man and the Bus Stop</h3>
+        <p>
+          Every morning, an old man waited at a small bus stop in the city. He never boarded any bus. He just sat there, greeting everyone with a smile. 
+          One day, a young man who saw him daily finally asked, “Why do you sit here every day?”  
+          The old man smiled, eyes soft as dawn. “My wife and I used to take this bus together. She passed away years ago, but I come here to keep her company — because love doesn’t end, it just changes form.”  
+          From that day on, the young man made sure to stop and greet him. The bus stop became a place where strangers learned what devotion looked like — not loud, not dramatic, but steady, like a heartbeat.
+        </p>
+      </div>
+
+      <div class="story">
+        <h3>The Street Musician</h3>
+        <p>
+          In a noisy city, there was a man who played violin on the corner of an old café. His notes floated like whispers of sunlight.  
+          People passed by, some dropped coins, some ignored him — until one rainy afternoon, a little girl stopped. She held a torn umbrella and listened for a long time. When he finished, she smiled and said,  
+          “Your music sounds like what hope feels like.”  
+          The man, once unseen, wept quietly. The next day, his violin sounded different — fuller, alive.  
+          Sometimes, one genuine heart is all it takes to bring color back to a faded dream.
+        </p>
+      </div>
+
+      <div class="story">
+        <h3>The Letter from Tomorrow</h3>
+        <p>
+          A student found a letter on her desk one morning. It read:  
+          “Dear Me,  
+          You’re doing better than you think. The nights you thought were wasted in tears were actually moments of becoming. The failures that made you doubt yourself were seeds being buried deep. Someday, those roots will bloom into strength. Don’t give up — I’m waiting for you here, in tomorrow.”  
+          It was unsigned. But she later realized — it was her own handwriting. A note she wrote months ago and forgot about.  
+          That day, she stopped chasing perfection and started living with grace. She smiled, because she finally met the person she had been trying to become.
+        </p>
+      </div>
+
+      <div class="story">
+        <h3>The Candle and the Mirror</h3>
+        <p>
+          A candle once complained to a mirror, “You shine brighter than I ever could.”  
+          The mirror replied, “I only shine because of your flame.”  
+          That day, the candle realized — it wasn’t about who glowed more, but how they reflected each other’s light.  
+          In life, true beauty is not competition, but connection.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by <span>Bibadubi</span> | © 2025 | “Let your heart speak softly but powerfully.”</p>
+  </footer>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll("main section").forEach(sec => sec.classList.remove("active"));
+      document.getElementById(id).classList.add("active");
+    }
+  </script>
+</body>
+</html>
